@@ -7,7 +7,14 @@
     "build": "tsc -p tsconfig.json && cp .env dist/.env ",
     "start": "ts-node ./src/app.ts"
   },
- 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   },
   "description": "",
   "dependencies": {
