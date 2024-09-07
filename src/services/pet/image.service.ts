@@ -1,4 +1,6 @@
-
+import { DataSource } from "typeorm";
+import { Image } from "../../typeorm/entities/image-entity";
+import { entities } from "../../typeorm/typeorm.entities";
 
 export class TypeORMImageController {
   private dataSource: DataSource;
