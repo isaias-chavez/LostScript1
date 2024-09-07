@@ -56,4 +56,9 @@ export class TypeORMImageController {
           id,
         },
       });
-     
+      return data;
+    } catch (error) {
+      throw error;
+    }
+  }
+}
