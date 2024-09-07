@@ -9,9 +9,7 @@ import fs, { createReadStream } from "fs";
 const { ReadableStream } = require("node:stream/web");
 import staticPlugin from "@fastify/static";
 
-const server: FastifyInstance<Server, IncomingMessage, ServerResponse> =
-  fastify({ logger: true });
-dotenv.config();
+
 
 server.register((instance, opts, next) => {
   AppDataSource.initialize()
